@@ -1,4 +1,3 @@
-<img width="1024" height="1536" alt="System_flow" src="https://github.com/user-attachments/assets/5f0fa2a0-af60-4bc2-a2df-914779f4186e" /># Solution Documentation  
 **Project:** Ramayan 3075 — The Neural Exile  
 **Role:** AI Engineer Assignment (Pratilipi)  
 **Author:** Shiva Sannidh  
