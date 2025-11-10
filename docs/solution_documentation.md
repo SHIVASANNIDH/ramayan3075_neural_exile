@@ -1,4 +1,4 @@
-# Solution Documentation  
+<img width="1024" height="1536" alt="System_flow" src="https://github.com/user-attachments/assets/5f0fa2a0-af60-4bc2-a2df-914779f4186e" /># Solution Documentation  
 **Project:** Ramayan 3075 — The Neural Exile  
 **Role:** AI Engineer Assignment (Pratilipi)  
 **Author:** Shiva Sannidh  
@@ -10,40 +10,14 @@
 User Input → Context Setup → Prompt Template Loading → LLM or Deterministic Generator → Output Assembly → Markdown Report
 
 
-### System Flow
+## System Flow
 
-            ┌──────────────────────────┐
-            │  User Input (movie/lit)  │
-            │  + New World setting     │
-            └─────────────┬────────────┘
-                          │
-                          ▼
-             ┌──────────────────────────┐
-             │ Prompt & Template Loader │
-             │ (world.txt, characters,  │
-             │  beats.txt, scenes.txt)  │
-             └─────────────┬────────────┘
-                          │
-               ┌──────────┴──────────┐
-               │                     │
-               ▼                     ▼
-  ┌───────────────────────┐   ┌────────────────────────┐
-  │ Deterministic Engine  │   │ LLM Engine (OpenAI API)│
-  │ (Offline generation)  │   │ (Prompt chaining, RAG) │
-  └──────────┬────────────┘   └────────────┬───────────┘
-             │                            │
-             └────────────┬───────────────┘
-                          ▼
-             ┌──────────────────────────┐
-             │ Story Assembler & Writer │
-             │ (Combines outputs → MD)  │
-             └─────────────┬────────────┘
-                          ▼
-             ┌──────────────────────────┐
-             │ Final Markdown Output     │
-             │ (world, beats, scenes,   │
-             │ reflection sections)     │
-             └──────────────────────────┘
+![System Flow Diagram](<img width="1024" height="1536" alt="System_flow" src="https://github.com/user-attachments/assets/a4a0ef5b-059d-4d7f-801a-49365c1f41d4" />
+.png)
+
+*Figure 1: End-to-End Story Generation Flow — from user input to final markdown narrative.*
+
+---
 
 ## 2. Solution Design
 The system is built to transform a classic story into a reimagined narrative using either a deterministic engine or an LLM-based creative generation pipeline. It focuses on repeatability, modularity, and interpretability while keeping the emotional and moral essence of the original tale.
@@ -131,8 +105,6 @@ When designing *Ramayan 3075 — The Neural Exile*, multiple architectural appro
 This **hybrid architecture** was chosen as it balances *control, creativity, and reproducibility* — three essential qualities for AI-assisted storytelling.
 
 ## 4. Challenges and Mitigations
-## 4. Challenges and Mitigations
-
 ### 4.1 Maintaining Consistency Across Story Sections
 **Challenge:**  
 LLMs can generate slightly different tones or names (e.g., mixing “Rama” and “Arjun” across sections) when prompts are not anchored properly.
