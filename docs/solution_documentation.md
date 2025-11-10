@@ -11,12 +11,9 @@ User Input → Context Setup → Prompt Template Loading → LLM or Deterministi
 
 ## System Flow
 
-![System Flow Diagram](<img width="1024" height="1536" alt="System_flow" src="https://github.com/user-attachments/assets/a4a0ef5b-059d-4d7f-801a-49365c1f41d4" />
-.png)
+<img width="600" height="800" alt="System_flow" src="https://github.com/user-attachments/assets/a4a0ef5b-059d-4d7f-801a-49365c1f41d4" />
 
-*Figure 1: End-to-End Story Generation Flow — from user input to final markdown narrative.*
 
----
 
 ## 2. Solution Design
 The system is built to transform a classic story into a reimagined narrative using either a deterministic engine or an LLM-based creative generation pipeline. It focuses on repeatability, modularity, and interpretability while keeping the emotional and moral essence of the original tale.
