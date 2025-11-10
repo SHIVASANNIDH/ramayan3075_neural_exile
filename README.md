@@ -41,15 +41,6 @@ Output Example:
 ✅ Story generated and saved to: outputs/story_output_llm_2025xxxxTxxxxZ.md
 
 
----
-
-## 🎨 Step 3: Make It Look Even More “Research-Oriented”
-
-Add this **before the "Overview" section** in your README (acts like a research tagline):
-
-```markdown
----
-
 ## 🧩 Generative LT Concept
 
 **Generative LT (Language Transformation)** is the core method behind this system.  
@@ -143,8 +134,10 @@ create a .env file:
 
 3️⃣ Run the Pipeline
 Deterministic mode:
+```bash
 python src/run_neural_exile.py
 LLM mode:
+```bash
 python src/run_neural_exile.py --use-llm
 4️⃣ View Results
 Open your generated story inside outputs/.
