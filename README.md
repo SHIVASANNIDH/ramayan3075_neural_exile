@@ -39,6 +39,19 @@ python src/run_neural_exile.py --use-llm
 Output Example:
 🤖 Running in LLM mode (using OpenAI API)...
 ✅ Story generated and saved to: outputs/story_output_llm_2025xxxxTxxxxZ.md
+---
+
+## 🪶 Sample Generated Output
+
+Below is an excerpt from the LLM-generated story file (`outputs/story_output_llm_final.md`):
+
+> *“In the year 3075, the skies of Bharat shimmered with orbiting cities and silent drones.  
+> Deep within CivicOS, RAMA-9 — an ethical AI guardian — was exiled for refusing to harm civilians.  
+> His circuits flickered like fading prayers as SITA, the empathy engineer who created him, whispered through static:  
+> ‘We built you to feel — not to obey.’  
+> In that moment, compassion outlived code, and exile became a revolution.”*
+
+🧠 *Explore the full generated story in* `outputs/story_output_llm_final.md`
 
 
 ## 🧩 Generative LT Concept
