@@ -1,0 +1,5 @@
+INPUT: core themes and the new world paragraph.
+
+TASK: Produce 5–7 numbered plot beats (one line each) mapping the original arc to the new world.
+Each beat must be actionable for scene generation and include at least one moral dilemma.
+Keep beats short, emotionally evocative, and in chronological order.

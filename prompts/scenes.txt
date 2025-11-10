@@ -1,0 +1,8 @@
+INPUT: three chosen beats and the character mapping.
+
+TASK: For each beat, write a 4–8 sentence scene description that:
+- Focuses on sensory detail and the moral choice in play.
+- Keeps emotional clarity: show how characters feel and why they act.
+- Avoids any quoted text from modern translations; keep original phrasing avoided.
+
+Output: JSON array of scenes with keys: title, text.

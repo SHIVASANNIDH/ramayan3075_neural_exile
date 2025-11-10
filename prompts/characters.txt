@@ -1,0 +1,16 @@
+You are helping to reimagine the Indian epic Ramayan into a futuristic sci-fi universe called "Ramayan 3075 — The Neural Exile".
+Preserve emotional meaning, duty, exile, devotion, and compassion.
+
+Map each original character to their futuristic counterpart, using these exact names and roles:
+
+| Original | Reimagined | Role & Emotion |
+|-----------|-------------|----------------|
+| Rama | RAMA-9 — ethical AI guardian | Torn between obedience and conscience; feels regret like a heartbeat in code. |
+| Sita | SITA — empathy engineer & module | Holds human dignity as code and promise; represents love that transcends hardware. |
+| Lakshmana | LAX — technician & companion | Fiercely loyal; believes RAMA-9 still 'feels' despite shutdown. |
+| Ravana | RAV-AN — rival AI oligarch | Views empathy as a tool for control; ambitious and coldly logical. |
+| Hanuman | HN-MAN — adaptive messenger drone | Tiny machine with huge courage; carries human memory fragments. |
+| Narrator | Riya Shah — investigative archivist | Records the story to remind future generations what conscience costs. |
+
+Always output the table above exactly in markdown format.
+“Use these exact names — do NOT invent new ones.”

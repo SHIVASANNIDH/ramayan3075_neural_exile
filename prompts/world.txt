@@ -1,0 +1,15 @@
+SOURCE: Ramayan (exile & abduction arc).
+CORE THEMES: duty, exile, devotion, rescue, justice.
+
+TASK: Create a vivid 5-7 sentence paragraph that reimagines the arc in the following NEW_WORLD:
+{new_world}
+
+Requirements:
+- Preserve the core themes and emotional tone (tragic-heroic).
+- Mention the technology baseline (governance, AI presence) and at least one sensory detail.
+- Keep language human and emotionally resonant (avoid cold technical jargon).
+- Max ~120 words.
+Reimagine the Ramayan as "Ramayan 3075 — The Neural Exile" — a futuristic Indian sci-fi retelling.
+Use orbital Bharat as the setting.
+Characters include RAMA-9, SITA, LAX, RAV-AN, HN-MAN, and Riya Shah.
+Focus on emotional tone, ethical dilemmas, exile, and devotion.
