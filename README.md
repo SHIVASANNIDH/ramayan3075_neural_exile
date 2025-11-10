@@ -44,7 +44,7 @@ Output Example:
 ## 🧩 Generative LT Concept
 
 **Generative LT (Language Transformation)** is the core method behind this system.  
-It applies structured prompt engineering to translate **classical literature** into **contextually coherent modern narratives** while preserving:
+It applies structured prompt engineering to translate classical literature into contextually coherent modern narratives while preserving:
 - Emotional integrity
 - Narrative structure
 - Thematic consistency
@@ -119,7 +119,7 @@ Key Files:
 
 ## 🚀 How to Run
 
-### 1️ Setup Environment
+### 1 Setup Environment
 ```bash
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
@@ -132,14 +132,16 @@ create a .env file:
   OPENAI_API_KEY=your_key_here
 
 
-3️⃣ Run the Pipeline
+### 3 Run the Pipeline
 Deterministic mode:
 ```bash
 python src/run_neural_exile.py
+
 LLM mode:
 ```bash
 python src/run_neural_exile.py --use-llm
-4️⃣ View Results
+
+### 4 View Results
 Open your generated story inside outputs/.
 
 
